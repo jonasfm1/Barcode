@@ -1,0 +1,35 @@
+html body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, rgba(5, 2, 177, 0.685), rgb(7, 20, 136));
+    overflow: hidden;
+    font-weight: bold;
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    font-size: 12pt;
+}
+
+
+/*------------div lista com check ou x-----------------*/
+
+.lista {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0.3%;
+    border-radius: 5px;
+}
+
+.tabela {
+    width: 100%;
+    height: 92%;
+}
+
+.sair {
+    position: absolute;
+    margin-left: 90%;
+}

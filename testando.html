@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>testando</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>Jonas</li>
+            <li>Edson</li>
+            <li>Leandro</li>
+            <li>Fernando</li>
+            <li>Rosa</li>
+            <li>Felipe</li>
+        </ul>
+
+        <ul>
+            <li>Rodrigo</li>
+            <li>Julia</li>
+            <li>Bruno</li>
+            <li>Marcia</li>
+            <li>Pedro</li>
+            <li>FLucas</li>
+        </ul>
+    </div>
+    <script>
+        var li = document.querySelectorAll('#criando li').length;
+        var cont = 0;
+
+        while (cont <= li) {
+            var lis = document.getElementsByTagName("li")[cont];
+            alert(lis.innerText)
+            cont++;
+        }
+    </script>
+    <!-- while (c < pegtag) {
+                var pegimg = document.getElementsByTagName("img")[c];
+                alert(pegimg.src);
+                c++
+            }-->
+</body>
+
+</html>

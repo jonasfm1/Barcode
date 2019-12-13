@@ -1,0 +1,68 @@
+body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to left, rgba(5, 2, 177, 0.685), rgb(7, 20, 136));
+    overflow: hidden;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 12pt;
+}
+
+.tudo {
+    height: 200px;
+    width: 93%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+#result_strip {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 93%;
+}
+
+ul.thumbnails {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+.viewport {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 450px;
+    height: 200px;
+}
+
+.sair {
+    position: absolute;
+    margin-left: 90%;
+}
+
+.entradas {
+    position: fixed;
+    margin-left: 40%;
+    margin-top: 24%;
+}
+
+.faz {
+    position: relative;
+    float: left;
+    left: 93%;
+    width: 20%;
+    height: 100%;
+    background-color: greenyellow;
+}
+
+ul li {
+    list-style-type: none;
+}

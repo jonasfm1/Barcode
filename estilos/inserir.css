@@ -1,0 +1,62 @@
+html body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, rgba(5, 2, 177, 0.685), rgb(7, 20, 136));
+    overflow: hidden;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 12pt;
+}
+
+.container {
+    position: relative;
+    margin-top: 38%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+input[type='file'] {
+    display: none;
+    width: 500px;
+    font-weight: bold;
+}
+
+
+/* Aparência que terá o seletor de arquivo */
+
+label {
+    height: 30px;
+    width: 200px;
+    background-color: #051a29;
+    border-radius: 5px;
+    color: gray;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type='submit'] {
+    display: none;
+    font-weight: bold;
+}
+
+.sair {
+    position: absolute;
+    margin-left: 90%;
+}
+
+
+/*------------roda pé caddesign-----------------*/
+
+footer {
+    position: relative;
+    margin-top: 2%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
